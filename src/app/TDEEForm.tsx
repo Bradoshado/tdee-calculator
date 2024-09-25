@@ -38,7 +38,7 @@ const TDEEForm = ({ calculateTDEE }) => {
         />
       </label>
       <label htmlFor="">
-        Weight:
+        Weight(kg):
         <input
           type="number"
           value={weight}
@@ -47,7 +47,7 @@ const TDEEForm = ({ calculateTDEE }) => {
         />
       </label>
       <label htmlFor="">
-        Height:
+        Height(cm):
         <input
           type="number"
           value={height}
